@@ -11,6 +11,12 @@ export const eng = {
         title: 'What are we watching today?',
         interest: 'interests'
     },
+    theme: {
+        title: 'Appearance',
+        light: 'Light',
+        dark: 'Dark',
+        system: 'System',
+    },
     footer: {
         rights: 'All rights reserved',
         contact: 'Contact us'

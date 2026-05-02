@@ -150,6 +150,12 @@ export const esp = {
             description: 'Cuéntanos sobre este álbum...',
         },
     },
+    theme: {
+        title: 'Apariencia',
+        light: 'Claro',
+        dark: 'Oscuro',
+        system: 'Sistema',
+    },
     footer: {
         rights: 'Todos los derechos reservados',
         contact: 'Contáctanos'
