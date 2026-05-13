@@ -6,7 +6,7 @@ import { Required } from './Required';
 interface Props {
  id: string;
  name: string;
- type?: 'text' | 'email' | 'password' | 'number' | 'select' | 'textarea' | 'tel' | 'url';
+ type?: 'text' | 'email' | 'password' | 'number' | 'select' | 'textarea' | 'tel' | 'url' | 'date';
  placeholder?: string;
  value?: any;
  defaultValue?: any;

@@ -17,6 +17,7 @@ const INTEREST_OPTIONS = [
  { id: 'events', label: 'Eventos' },
  { id: 'albums', label: 'Álbumes' },
  { id: 'movies', label: 'Películas' },
+ { id: 'travels', label: 'Viajes' },
 ];
 
 export default function EditProfileModal({ isOpen, onClose }: { isOpen: boolean, onClose: () => void }) {

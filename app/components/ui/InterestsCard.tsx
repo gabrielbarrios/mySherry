@@ -15,6 +15,7 @@ const INTEREST_MAP: Record<string, { label: string, path: string, icon: string, 
  events: { label: 'Eventos', path: '/events', icon: '🎉', description: 'Explorar Eventos' },
  albums: { label: 'Álbumes', path: '/albums', icon: '📸', description: 'Explorar Álbumes de fotos' },
  movies: { label: 'Películas', path: '/movies', icon: '🎬', description: 'Explorar Películas' },
+ travels: { label: 'Viajes', path: '/travels', icon: '✈️', description: 'Explorar Viajes' },
 };
 
 export default function InterestsCard({
