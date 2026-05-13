@@ -113,6 +113,49 @@ export const esp = {
         unfriendConfirm: '¿Seguro que quieres quitar a @{{name}} de tus amigos?',
         unfriendError: 'Error al quitar amigo'
     },
+    movies: {
+        movies: 'Películas',
+        myMovies: 'Mis Películas',
+        description: 'Tu colección personal de películas vistas y por ver',
+        add: '+ Agregar Película',
+        seeAll: 'Ver todas las películas',
+        notFound: 'Película no encontrada',
+        notFoundmessage: 'Lo sentimos, la película que buscas no existe o ha sido marcada como privada por su autor.\n\n¡Pero no te quedes con ganas! Puedes explorar otras creaciones.',
+        edit: 'Editar Película',
+        editing: 'Editando',
+        update: 'Actualizar Película',
+        create: 'Crear Película',
+        createdSuccess: '¡Película agregada con éxito!',
+        register: 'Registrar Película',
+        addNew: 'Agregar Nueva Película',
+        nameMovie: 'Título de la Película',
+        director: 'Director',
+        releaseYear: 'Año de estreno',
+        duration: 'Duración (min)',
+        language: 'Idioma original',
+        country: 'País',
+        genre: 'Género',
+        trailerUrl: 'URL del tráiler',
+        whereToWatch: 'Dónde verla',
+        details: 'Detalles',
+        synopsis: 'Sinopsis',
+        filter:
+        {
+            tag: 'Género'
+        },
+        placeholder:
+        {
+            name: 'Ej: Interestelar...',
+            tag: 'Ej: Drama, Sci-fi...',
+            director: 'Ej: Christopher Nolan',
+            releaseYear: 'Ej: 2014',
+            duration: 'Ej: 169',
+            language: 'Ej: Inglés',
+            country: 'Ej: Estados Unidos',
+            trailerUrl: 'https://youtube.com/...',
+            whereToWatch: 'Ej: Netflix, Prime Video, Cine',
+        }
+    },
     albums: {
         albums: 'Álbumes',
         myAlbums: 'Mis Álbumes',
@@ -236,6 +279,7 @@ export const esp = {
         website: 'Sitio Web',
         imageRecipe: 'Imagen de la receta',
         imageRestaurant: 'Imagen del restaurante',
+        imageMovie: 'Póster de la película',
         imageProfile: 'Foto de perfil',
         uploadImage: 'Subir imagen',
         changeImage: 'Cambiar imagen',

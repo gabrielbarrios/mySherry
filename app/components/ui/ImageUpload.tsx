@@ -12,7 +12,7 @@ interface Props {
  value: string
  onChange: (url: string) => void
  folder?: string
- aspectRatio?: '16/9' | '1/1'
+ aspectRatio?: '16/9' | '1/1' | '2/3'
  label?: string
 }
 
@@ -62,7 +62,12 @@ export default function ImageUpload({
  }
  }
 
- const aspectClass = aspectRatio === '1/1' ? 'aspect-square max-h-48' : 'aspect-video max-h-52'
+ const aspectClass =
+ aspectRatio === '1/1'
+ ? 'aspect-square max-h-48'
+ : aspectRatio === '2/3'
+ ? 'aspect-[2/3] max-h-96'
+ : 'aspect-video max-h-52'
 
  return (
  <div className="space-y-2">

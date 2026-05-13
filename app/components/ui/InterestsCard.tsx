@@ -14,6 +14,7 @@ const INTEREST_MAP: Record<string, { label: string, path: string, icon: string, 
  medicals: { label: 'Médico', path: '/medical', icon: '🏥', description: 'Explorar recetas médicas' },
  events: { label: 'Eventos', path: '/events', icon: '🎉', description: 'Explorar Eventos' },
  albums: { label: 'Álbumes', path: '/albums', icon: '📸', description: 'Explorar Álbumes de fotos' },
+ movies: { label: 'Películas', path: '/movies', icon: '🎬', description: 'Explorar Películas' },
 };
 
 export default function InterestsCard({
